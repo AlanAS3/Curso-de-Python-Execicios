@@ -1,0 +1,5 @@
+print('==== Alugel de carro ====')
+dias = int(input('Quantos dias você ficou com o carro? '))
+km = float(input('Quantos Km você rodou com o carro? '))
+Alugel = (dias * 60) + (km * 0.15)
+print(f'O valor do alugel é de R${Alugel:.2f}')
