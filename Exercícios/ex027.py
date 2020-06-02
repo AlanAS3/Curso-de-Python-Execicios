@@ -1,0 +1,5 @@
+print('=== Primeiro e último nome ===')
+name = str(input('Digite o seu nome completo: ')).strip()
+name = name.split()
+print(f'O seu primeiro nome é: {name[0]}')
+print(f'O seu último nome é: {name[-1]}')
