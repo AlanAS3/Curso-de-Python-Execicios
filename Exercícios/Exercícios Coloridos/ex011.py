@@ -1,0 +1,6 @@
+print('\033[32;1m==== Pintando a parede ====\033[m')
+b = float(input('\033[31mQual a largura da parede?(m) '))
+h = float(input('Qual a altura da parede?(m) '))
+A = float(b*h)
+res = float(A/2)
+print(f'\033[36;1mA área da sua parede é de \033[34;1m{A:.2f}m².\n\033[36mE a quantidade de tinta necessária para pinta a parede é de \033[34m{res:.1f}(l)\033[36m (1l=2m²).')

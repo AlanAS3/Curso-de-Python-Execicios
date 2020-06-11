@@ -1,0 +1,7 @@
+print('\033[32;1m=== Analisando nome ===\033[m')
+nome = str(input('\033[31mDigite o seu nome completo: ')).strip()
+print(f'\033[36mO seu nome com letras maiúsculas: \033[34;1m{nome.upper()}\033[m')
+print(f'\033[36mO seu nome com letras minúsculas: \033[34;1m{nome.lower()}\033[m')
+print(f'\033[36mTotal de letras: \033[34;1m{len(nome.replace(" ", "" ))}\033[m')
+PriN = nome.split()
+print(f'\033[36mTotal de letras no primeiro nome: \033[34;1m{(len(PriN[0]))}\033[m')

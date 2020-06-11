@@ -1,0 +1,8 @@
+algo = input('\033[31;1mDigite algo: \033[m')
+print(type(algo))
+print(f'\033[32mEsse algo é um número?\033[m \033[1;36m{algo.isnumeric()}\033[m')
+print(f'\033[33mEsse algo é alfabético?\033[m \033[1;36m{algo.isalpha()}\033[m')
+print(f'\033[32mEsse algo é alfanúmerico?\033[m \033[1;36m{algo.isalnum()}\033[m')
+print(f'\033[33mEsse algo só está em maiúsculo?\033[m \033[1;36m{algo.isupper()}\033[m')
+print(f'\033[32mEsse algo só está em minúsculo?\033[m \033[1;36m{algo.islower()}\033[m')
+print(f'\033[33mEsse algo só tem espaço?\033[m \033[1;36m{algo.isspace()}\033[m')

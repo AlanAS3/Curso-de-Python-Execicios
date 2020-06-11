@@ -1,0 +1,5 @@
+print('\033[32;1m=== Analise de frase ===\033[m')
+frase = str(input('\033[31mDigite uma frase qualquer: ')).strip().upper()
+print(f'\033[36mA letra "A" aparece \033[34;1m{frase.count("A")}\033[m\033[36m vezes')
+print(f'\033[36mA letra "A" aparece a primeira vez na posição: \033[34;1m{frase.find("A")+1}\033[m')
+print(f'\033[36mA letra "A" aparece a última vez na posição: \033[34;1m{frase.rfind("A")+1}\033[m')

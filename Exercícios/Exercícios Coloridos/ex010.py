@@ -1,0 +1,5 @@
+print('\033[32;1m==== Quantos dolares você pode comprar ====\033[m')
+real = float(input('\033[31mQuantos reais você tem? R$\033[m'))
+dolar = float(5.84)
+print(f'\033[35mVocê pode comprar US$\033[36m{real/dolar:.2f} ')
+print('\033[30m>>> Dolar = 5,84 (05/2020)')

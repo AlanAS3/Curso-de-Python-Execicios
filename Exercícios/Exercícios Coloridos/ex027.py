@@ -1,0 +1,5 @@
+print('\033[32;1m=== Primeiro e último nome ===\033[m')
+name = str(input('\033[31mDigite o seu nome completo: ')).strip()
+name = name.split()
+print(f'\033[36mO seu primeiro nome é: \033[34;1m{name[0]}\033[m')
+print(f'\033[36mO seu último nome é: \033[34;1m{name[-1]}\033[m')
